@@ -5,6 +5,21 @@
   margin: 0 auto;
   padding: 20px;
   background-color: #f4f4f4;
+  border-radius: 8px; /* Add border-radius property */
+}
+
+.task-list li {
+  border: 1px solid #ccc;
+  border-radius: 4px; /* Update border-radius property */
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.task-list li.completed {
+  background-color: #f9f9f9;
+  text-decoration: line-through;
+  opacity: 0.7;
+  border-radius: 8px; /* Add border-radius property */
 }
 
 .todo-app h1 {
@@ -37,6 +52,7 @@
     margin-bottom: 5px;
   }
 }
+
 .task-item-enter {
   opacity: 0;
   transform: translateY(-20px);
