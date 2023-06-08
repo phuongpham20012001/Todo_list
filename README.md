@@ -1,70 +1,25 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Title: Development of a React-based Todo List Application
 
-## Available Scripts
+Introduction:
+In this essay, I will discuss the development process and key features of a Todo List application I created using React. Although I successfully implemented most requested functions, including task creation, deletion, editing, and marking tasks as complete, the drag-and-drop functionality for task reordering is yet to be implemented. The application has been deployed to the cloud and can be accessed through this link: Todo List Application.
 
-In the project directory, you can run:
+Development Process:
+I chose React for its efficient and flexible framework in creating interactive user interfaces. Utilizing React's component-based architecture allowed for modularization, ensuring maintainability and code reusability.
 
-### `npm start`
+Key Features:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Task Creation: Users can easily create new tasks by inputting task details and clicking "Add," facilitating efficient task management.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Task Deletion: Each task includes a delete button for easy removal, maintaining a clutter-free task list.
 
-### `npm test`
+Task Editing: Users can modify task details by clicking on the task itself, providing flexibility in adjusting descriptions or updating information.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Marking Tasks as Complete: Users can check a checkbox to indicate task completion, aiding progress tracking and motivating task completion.
 
-### `npm run build`
+Limitation:
+The application currently lacks drag-and-drop functionality for task reordering, a feature that would enhance user customization and task prioritization.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Deployment:
+The Todo List application has been deployed to the cloud using Vercel, enabling convenient access without local installations or setup. Access the deployed version here: Todo List Application.
+![image](https://github.com/phuongpham20012001/Todo_list/assets/70307219/13db7807-fd01-4a2c-afe9-4f3509c487f9)
