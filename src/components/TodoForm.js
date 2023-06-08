@@ -11,7 +11,7 @@ function TodoForm({ onSubmit }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (title.trim() === "" || description.trim() === "") {
+    if (title.trim() === "" || description.trim() === "" || dueDate === null ){
       setError("Please fill out all the fields");
       return;
     }
