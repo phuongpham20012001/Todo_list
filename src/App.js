@@ -30,33 +30,30 @@ function App() {
 
   const updateTask = (taskId, newTask) => {
     setTasks((preveTasks) => {
-
       const newTasks = preveTasks.map((task) =>
         task.id === taskId ? { ...task, ...newTask } : task
-      )
+      );
       localStorage.setItem("tasks", JSON.stringify(newTasks));
       return newTasks;
-    }
-      
-     
-    );
+    });
   };
 
   const deleteTask = (taskId) => {
     setTasks((preveTasks) => {
-
-      const newTasks = preveTasks.filter((task) => task.id !== taskId)
+      const newTasks = preveTasks.filter((task) => task.id !== taskId);
       localStorage.setItem("tasks", JSON.stringify(newTasks));
       return newTasks;
-    })
+    });
   };
 
   const completeTask = (taskId) => {
-    setTasks(
-      tasks.map((task) =>
+    setTasks((preveTasks) => {
+      const newTasks = preveTasks.map((task) =>
         task.id === taskId ? { ...task, completed: !task.completed } : task
-      )
-    );
+      );
+      localStorage.setItem("tasks", JSON.stringify(newTasks));
+      return newTasks;
+    });
   };
 
   const filterTasks = (status) => {
