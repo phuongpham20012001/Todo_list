@@ -72,6 +72,7 @@ function App() {
   return (
     <div className="todo-app">
       <h1>Todo List</h1>
+
       <TodoForm onSubmit={addTask} />
       <TodoList
         tasks={filteredTasks}
@@ -80,6 +81,8 @@ function App() {
         onComplete={completeTask}
         onFilter={filterTasks}
       />
+    <a href="https://github.com/phuongpham20012001/Todo_list" target="_blank" rel="noopener noreferrer">My Code</a>
+
     </div>
   );
 }
