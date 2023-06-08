@@ -1,0 +1,60 @@
+/* App.css */
+
+.todo-app {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.todo-app h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  /* Adjust the layout for screens smaller than 768px */
+  .todo-app {
+    padding: 10px;
+  }
+  
+  .todo-app h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  /* Adjust the layout for screens smaller than 576px */
+  .todo-app {
+    max-width: 100%;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  .todo-app h1 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+}
+.task-item-enter {
+  opacity: 0;
+  transform: translateY(-20px);
+}
+
+.task-item-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.task-item-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.task-item-exit-active {
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: opacity 300ms, transform 300ms;
+}
